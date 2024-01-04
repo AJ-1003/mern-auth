@@ -1,0 +1,51 @@
+Website Requirements
+
+* Login
+    * Email
+    * Password
+    * Password reset
+* Profile
+    * Naam
+    * Van
+    * Email
+    * Sell
+    * Callsign
+    * Teamlead (Y/N)
+    * XP (Calculate XP based on event type)
+    * Initiation done (Y/N)
+    * Games played
+    * Region
+    * Team
+* Admin Role
+    * Assign teamleads
+    * Add/Remove members
+    * Upload images
+    * Add/Remove events
+    * Adjust settings
+* Teamlead Role
+    * Assign second-in-command
+    * Assign new members to team
+* Gallery
+    * Phantom Social
+    * Speed soft
+    * NAL (National Airsoft League)
+    * COF
+* Events
+    * Date
+    * Organization
+    * Location
+    * Member registration for game (Just to confirm if playing, no payment)
+    * XP as per settings
+    * Event type
+    * Members attending (List of attending players)
+* Settings
+    * Set other organization XP per game
+    * Set social game XP
+    * Set special event XP
+* Claim XP
+    * Match user location with event location
+        * Condition: User must be registered for event to claim XP
+* Code of conduct/rules
+    * Display Phantoms SOG - A code of conduct/rules on display page
+    * Display COF code of conduct/rules on display page
+    * Display NAL code of conduct/rules on display page

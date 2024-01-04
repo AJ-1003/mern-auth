@@ -1,0 +1,70 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.rounded-corners {
+    border-radius: 1rem;
+}
+
+input,
+textarea,
+select {
+    font-family: inherit;
+    font-size: inherit;
+    outline: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 2px solid #550000;
+    background: transparent;
+    resize: none;
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.06);
+    color: #fff;
+
+    &::placeholder {
+        color: #fff;
+    }
+
+    &:focus {
+        border: 2px solid #F40002;
+    }
+}
+
+input,
+textarea {
+    caret-color: red;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    appearance: textfield;
+    -moz-appearance: textfield;
+}
+
+.button {
+    padding: 8px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #F40002;
+}
+
+.button:hover {
+    padding: 6px 18px;
+    transition: all 0.3s ease-out;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 4px;
+    border: 2px solid #F40002;
+    transition: all 0.3s ease-out;
+}
+
